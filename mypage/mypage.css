@@ -194,6 +194,12 @@
     
   }
 
+  .main--profile:hover, .maim--post:hover, .maim--comment:hover,
+  .maim--change:hover, .maim--pwdchang:hover, .maim--note:hover{
+    color:#8976FD;
+    border-bottom: #8976FD solid 1px;
+  }
+
   .main--profile{
     border-bottom: #8976FD solid 1px;
     color: #8976FD;
@@ -204,6 +210,7 @@
     border-bottom: #979797 solid 1px;
     color: #979797;
   }
+
 
   .User-profile{
     padding: 10px 0px;

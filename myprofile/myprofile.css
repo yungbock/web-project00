@@ -172,7 +172,11 @@
     border-radius: 10px;
   }
   
-
+  .main--profile:hover, .maim--post:hover, .maim--comment:hover,
+  .maim--change:hover, .maim--pwdchang:hover, .maim--note:hover{
+    color:#8976FD;
+    border-bottom: #8976FD solid 1px;
+  }
   
   .Pagebotton{
     padding-top: 50px;
@@ -211,8 +215,11 @@
     padding: 10px 0px;
   }
   .User-profile th, td{
-    border-right: 20px solid white;
+    
     font-size: 15px;
+  }
+  .space{
+border-right: 20px solid white;
   }
   .User-profile th{
     width: 150px;
@@ -221,6 +228,11 @@
   .User-profile td{
     text-align: 20px;
 
+  }
+
+  table th img{
+    margin-top: 0px;
+    padding: 0px;
   }
 
   main input{

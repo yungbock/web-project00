@@ -193,16 +193,17 @@ main img{
   display: flex;
   justify-content: space-between;
 }
-.main-heart{
+#mainheart{
   width: 46px;
   height: 46px;
   border: 0px solid white;
   background-color: white;
+  /* margin-right: 10px; */
 }
 
 main .material-symbols-outlined {
-  font-size: 46px;
-  color: #8976FD;
+  font-size: 36px;
+  color: #979797;
   margin: 0;
   padding: 0;
   font-variation-settings:
@@ -223,10 +224,11 @@ main .material-symbols-outlined {
 
 .main-button-number{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 100px;
 }
-.main-recommend{
+#mainrecommend{
   font-size: 18px;
   color: #979797;
 }

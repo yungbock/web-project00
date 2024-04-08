@@ -171,7 +171,11 @@
     padding: 10px 20px;
     border-radius: 10px;
   }
-  
+  .main--profile:hover, .maim--post:hover, .maim--comment:hover,
+  .maim--change:hover, .maim--pwdchang:hover, .maim--note:hover{
+    color:#8976FD;
+    border-bottom: #8976FD solid 1px;
+  }
 
   
   .Pagebotton{

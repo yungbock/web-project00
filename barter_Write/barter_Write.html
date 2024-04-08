@@ -6,6 +6,8 @@
   <title>물물교환 글쓴페이지</title>
   <link rel="stylesheet" href="./barter_Write.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script defer src="./barter_Write.js"></script>
 </head>
 <body>
   <header>
@@ -46,10 +48,10 @@
               <div class="main-button">
                 <button class="main-note">쪽지보내기</button>
                 <div class="main-button-number">
-                  <button class="main-heart">
+                  <button id="mainheart" onclick="inCounter()" >
                     <span class="material-symbols-outlined">favorite</span>
                   </button>
-                  <div class="main-recommend">52</div>
+                  <p id="mainrecommend">0</p>
                 </div>
               </div>
             </div>
