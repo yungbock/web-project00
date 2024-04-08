@@ -32,7 +32,7 @@ input:focus {outline: none;}
 header .outer {
   position: fixed;
   z-index: 100;
-
+  background-color: #FFFFFF;
   border-bottom: 1px solid #CACACA;
 }
 
@@ -75,7 +75,7 @@ header .inner {
   font-weight: bold;
 }
 
-.header--left-community {
+.header--left-barter {
   color:#8976FD;
 }
 
@@ -137,10 +137,125 @@ header .inner {
 /* -------------------------------------------- */
 
 main {
-  height:1000px;
+  height:900px;
   background-color: #FFFFFF;
 }
 
+main .inner{
+  margin-top: 61px;
+}
+
+.main-barter{
+  margin-top: 40px;
+  color: #8976FD;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-barter-img{
+  margin-top: 30px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+
+main img{
+  object-fit: contain;
+  width: 450px;
+  height: 300px;
+  margin-right: 40px;
+}
+
+.main-barter-text{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-tex{
+  flex: 1;
+}
+.main-barter-text h3{
+  color :#332C5C;
+  font-size: 30px;
+}
+
+.main-text-address{
+  margin-top: 15px;
+  color :#332C5C;
+  font-size: 18px;
+}
+.main-text-username{
+  margin-top: 10px;
+  color :#979797;
+  font-size: 14px;
+}
+.main-button{
+  display: flex;
+  justify-content: space-between;
+}
+.main-heart{
+  width: 46px;
+  height: 46px;
+  border: 0px solid white;
+  background-color: white;
+}
+
+main .material-symbols-outlined {
+  font-size: 46px;
+  color: #8976FD;
+  margin: 0;
+  padding: 0;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.main-note{
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #8976FD;
+  color: #332C5C;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.main-button-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-recommend{
+  font-size: 18px;
+  color: #979797;
+}
+
+.main-botton{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-text{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.main-list{
+  border-top: 1px solid #979797;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-botton button{
+  margin-top: 20px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #8976FD;
+  border-radius: 10px;
+  border: #8976FD;
+  font-size: 18px;
+}
 
 
 /* -------------------------------------------- */
