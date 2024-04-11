@@ -7,5 +7,5 @@ const increase = (function(){
 })();
 function inCounter(){
     document.getElementById("mainrecommend").innerText = increase();
-    // if ()
+    
 }
